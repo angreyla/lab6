@@ -27,7 +27,7 @@ function initializePage() {
  	var idNumber = projectID.substr('project'.length);
 
  	console.log("User clicked on project " + idNumber);
- 	$.get("/"+idNumber, callBackFunc);
+ 	$.get("https://lab6-anz.herokuapp.com"+idNumber, callBackFunc);
  }
 
 // function addProject(result) {
